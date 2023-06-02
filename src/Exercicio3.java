@@ -17,7 +17,8 @@ public class Exercicio3 {
         lista_numeros.add(sc.nextDouble());
 
         // Comando para organizar em ordem decrescente
-        lista_numeros.sort(Collections.reverseOrder());
+        Collections.sort(lista_numeros);
+        Collections.reverse(lista_numeros);
         System.out.printf("Os números em ordem decrescente são: %s", lista_numeros);
 
 
