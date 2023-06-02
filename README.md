@@ -4,6 +4,23 @@ Esse repositório é referente a criação de programas criados para a lista de 
 
 ---
 
+
+# Como executar os Programas
+
+- Você precisará ter o [JDK 11](https://www.oracle.com/java/technologies/downloads/#java11) instalado no seu computador;
+- Baixe o repositório do projeto (com todos os algoritmos);
+- Abra o terminal e navegue até o diretório do programa que você deseja executar;
+- Compile o arquivo executando o comando `javac`, como mostra abaixo o exemplo executando o [Exercicio 01](https://github.com/joaocruzzup/exercicios-arrays/blob/main/src/Exercicio01.java):
+```
+javac Exercicio01.java
+```
+- Após compilar, execute o comando `java`, como mostra abaixo:
+```
+java Exercicio01
+```
+
+---
+
 # Programas criados
 
 ## ❌ Remoção de um elemento da lista! (exerc 01)
@@ -79,19 +96,3 @@ Sistema para analisar um vetorA de números, e criar um vetorB com os números p
 Acesse aqui a pasta do projeto: [Exercicio 12](https://github.com/joaocruzzup/exercicios-arrays/blob/main/src/Exercicio12.java)
 
 
-
----
-
-# Como executar os Programas
-
-- Você precisará ter o [JDK 11](https://www.oracle.com/java/technologies/downloads/#java11) instalado no seu computador;
-- Baixe o repositório do projeto (com todos os algoritmos);
-- Abra o terminal e navegue até o diretório do programa que você deseja executar;
-- Compile o arquivo executando o comando `javac`, como mostra abaixo o exemplo executando o [Exercicio 01](https://github.com/joaocruzzup/exerc-aula09/tree/main/src/ex01):
-```
-javac Exercicio01.java
-```
-- Após compilar, execute o comando `java`, como mostra abaixo:
-```
-java FolhaPagamento
-```
