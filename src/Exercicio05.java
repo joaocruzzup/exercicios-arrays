@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Criar um programa que calcule a média de salários de uma empresa,
 // pedindo ao usuário a grade de funcionários e os salários, e devolvendo a média salarial.
-public class Exercicio5 {
+public class Exercicio05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Map<Integer, Double> dados_funcionario = new HashMap<>();

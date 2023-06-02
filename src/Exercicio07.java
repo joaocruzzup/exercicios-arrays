@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 // Crie um programa para exibir o inteiro fornecido pelo usuário na ordem inversa.
-public class Exercicio7 {
+public class Exercicio07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<Integer> lista_numeros = new ArrayList<>();

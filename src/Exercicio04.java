@@ -6,7 +6,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exercicio4 {
+public class Exercicio04 {
     public static void main(String[] args) {
         List<String[]> dados_pessoas = new ArrayList<>();
 

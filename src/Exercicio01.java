@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 // Escreva um programa para remover um elemento específico de uma lista.
-public class Exercicio1 {
+public class Exercicio01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<Integer> lista_numeros = new ArrayList<>();
