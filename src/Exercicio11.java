@@ -4,6 +4,7 @@ import java.util.Arrays;
 // Escreva um programa que determine e escreva a menor e a maior idades e suas respectivas posições.
 public class Exercicio11 {
     public static void main(String[] args) {
+        // Começando um vetor com valores pré-definidos apenas para teste
         int [] vetor_idades = new int[]{30, 18, 25, 27, 29, 17, 54, 72, 22, 21};
 
         int maior = vetor_idades[0];

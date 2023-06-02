@@ -5,6 +5,7 @@ import java.util.List;
 // dos elementos ímpares armazenados neste vetor.
 public class Exercicio10 {
     public static void main(String[] args) {
+        // Começando um vetor com valores pré-definidos apenas para teste
         int[] vetor = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         System.out.println("A lista dos números é: " + Arrays.toString(vetor));
