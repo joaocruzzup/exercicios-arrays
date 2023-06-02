@@ -25,6 +25,13 @@ public class Exercicio01 {
         System.out.println("A lista de valores é: " + lista_numeros);
         System.out.println("Qual valor você deseja remover da lista? ");
         int valor = sc.nextInt();
+
+        // Caso o valor não exista, a mensagem é enviada novamente
+        while (!lista_numeros.contains(valor)){
+            System.out.println("O valor não existe na lista!");
+            System.out.println("Qual valor você deseja remover da lista? ");
+            valor = sc.nextInt();
+        }
         lista_numeros.remove(lista_numeros.indexOf(valor));
 
         System.out.println("A lista atualizada é: " + lista_numeros);
