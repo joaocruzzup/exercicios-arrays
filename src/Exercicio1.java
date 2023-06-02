@@ -21,7 +21,6 @@ public class Exercicio1 {
         System.out.println("A lista de valores é: " + lista_numeros);
         System.out.println("Qual valor você deseja remover da lista? ");
         int valor = sc.nextInt();
-
         lista_numeros.remove(lista_numeros.indexOf(valor));
 
         System.out.println("A lista atualizada é: " + lista_numeros);
