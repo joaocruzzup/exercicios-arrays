@@ -1,7 +1,8 @@
-import java.util.Arrays;
-
 // Ler um vetor A com 20 elementos. Construir dois vetores B e C, sendo que nos vetor B e C
 // serão armazenados o valores pares e ímpares de A, respectivamente.
+
+import java.util.Arrays;
+
 public class Exercicio12 {
     public static void main(String[] args) {
         // Começando um vetor com valores pré-definidos apenas para teste

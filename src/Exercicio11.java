@@ -1,7 +1,8 @@
-import java.util.Arrays;
-
 // Ler um vetor A com 10 elementos inteiros correspondentes as idades de um grupo de pessoas.
 // Escreva um programa que determine e escreva a menor e a maior idades e suas respectivas posições.
+
+import java.util.Arrays;
+
 public class Exercicio11 {
     public static void main(String[] args) {
         // Começando um vetor com valores pré-definidos apenas para teste

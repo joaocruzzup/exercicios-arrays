@@ -1,6 +1,6 @@
+// Crie um programa para exibir a soma de 20 números usando uma matriz.
 import java.util.Random;
 
-// Crie um programa para exibir a soma de 20 números usando uma matriz.
 public class Exercicio09 {
     public static void main(String[] args) {
         int [][] matriz_numeros = new int[5][4];

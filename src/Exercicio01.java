@@ -1,9 +1,10 @@
+// Escreva um programa para remover um elemento específico de uma lista.
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-// Escreva um programa para remover um elemento específico de uma lista.
 public class Exercicio01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

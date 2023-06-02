@@ -1,6 +1,7 @@
+// Crie um programa para verificar se o inteiro fornecido é um múltiplo de 5 e 7.
+
 import java.util.Scanner;
 
-// Crie um programa para verificar se o inteiro fornecido é um múltiplo de 5 e 7.
 public class Exercicio06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

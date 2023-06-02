@@ -1,8 +1,9 @@
+// Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a média aritmética simples
+// dos elementos ímpares armazenados neste vetor.
+
 import java.util.Arrays;
 import java.util.List;
 
-// Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a média aritmética simples
-// dos elementos ímpares armazenados neste vetor.
 public class Exercicio10 {
     public static void main(String[] args) {
         // Começando um vetor com valores pré-definidos apenas para teste
