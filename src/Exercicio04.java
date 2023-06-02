@@ -10,6 +10,10 @@ public class Exercicio04 {
     public static void main(String[] args) {
         List<String[]> dados_pessoas = new ArrayList<>();
 
+        // Cabeçalho
+        System.out.println("-------------------------------------");
+        System.out.println("Boas-vindas a análise de informações! ");
+
         // Criando uma lista de listas, onde cada lista possui um par de valor: "Altura e sexo"
         String[] pessoa1 = {"1.82", "M"};
         String[] pessoa2 = {"1.70", "F"};

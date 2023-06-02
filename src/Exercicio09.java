@@ -3,6 +3,12 @@ import java.util.Random;
 
 public class Exercicio09 {
     public static void main(String[] args) {
+
+        // Cabeçalho
+        System.out.println("-------------------------------------------------------------");
+        System.out.println("Boas-vindas ao Somador de números de uma matriz 5x4 aleatória");
+        System.out.println("-------------------------------------------------------------");
+
         int [][] matriz_numeros = new int[5][4];
 
         Random random = new Random();

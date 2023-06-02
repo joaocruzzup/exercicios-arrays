@@ -5,6 +5,12 @@ import java.util.Arrays;
 
 public class Exercicio11 {
     public static void main(String[] args) {
+
+        // Cabeçalho
+        System.out.println("---------------------------------------------------------------");
+        System.out.println("Boas-vindas a Calculadora de maior e menor de um vetor qualquer");
+        System.out.println("---------------------------------------------------------------");
+
         // Começando um vetor com valores pré-definidos apenas para teste
         int [] vetor_idades = new int[]{30, 18, 25, 27, 29, 17, 54, 72, 22, 21};
 

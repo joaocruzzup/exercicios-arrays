@@ -6,6 +6,12 @@ import java.util.List;
 
 public class Exercicio10 {
     public static void main(String[] args) {
+
+        // Cabeçalho
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Boas-vindas a Calculadora de média dos elementos impares");
+        System.out.println("--------------------------------------------------------");
+
         // Começando um vetor com valores pré-definidos apenas para teste
         int[] vetor = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 

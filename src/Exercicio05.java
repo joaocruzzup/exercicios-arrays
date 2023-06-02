@@ -10,6 +10,11 @@ public class Exercicio05 {
         Scanner sc = new Scanner(System.in);
         Map<Integer, Double> dados_funcionario = new HashMap<>();
 
+        // Cabeçalho
+        System.out.println("-----------------------------------------------------");
+        System.out.println("Boas-vindas ao Gerenciador de funcionários e salários");
+        System.out.println("-----------------------------------------------------");
+
         System.out.println("Quantos funcionários você deseja registrar? ");
         int qtdFuncionarios = sc.nextInt();
 

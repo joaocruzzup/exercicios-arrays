@@ -9,6 +9,12 @@ public class Exercicio07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<Integer> lista_numeros = new ArrayList<>();
+
+        // Cabeçalho
+        System.out.println("------------------------------------------------------");
+        System.out.println("Boas-vindas ao Organizador de números na ordem inversa");
+        System.out.println("------------------------------------------------------");
+
         System.out.println("Quantos números você deseja inserir na lista: ");
         int n = sc.nextInt();
 

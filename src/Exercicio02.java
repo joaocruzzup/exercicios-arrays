@@ -11,6 +11,10 @@ public class Exercicio02 {
         List<String> lista_produtos = new ArrayList<>();
         lista_produtos.addAll(Arrays.asList("Banana", "Pêra", "Maçã", "Uva", "Goiaba"));
 
+        // Cabeçalho
+        System.out.println("---------------------------------------------------");
+        System.out.println("Boas-vindas ao Adicionador de produtos de uma lista");
+        System.out.println("---------------------------------------------------");
 
         // Lógica para inserir o elemento
         System.out.println("------------------------------------------------------------------------");

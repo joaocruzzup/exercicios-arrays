@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class Exercicio06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        // Cabeçalho
+        System.out.println("-----------------------------------------------");
+        System.out.println("Boas-vindas ao Verificador de múltiplo de 5 e 7");
+        System.out.println("-----------------------------------------------");
+
         System.out.println("Digite um número inteiro: ");
         int num = sc.nextInt();
 

@@ -9,6 +9,9 @@ public class Exercicio01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<Integer> lista_numeros = new ArrayList<>();
+        System.out.println("--------------------------------------------------");
+        System.out.println("Boas-vindas ao removedor de elementos de uma lista");
+        System.out.println("--------------------------------------------------");
 
         // Gerando uma lista aleatória de tamanho máximo 10, com valores aleatórios
         Random random = new Random();

@@ -5,6 +5,12 @@ import java.util.Arrays;
 
 public class Exercicio12 {
     public static void main(String[] args) {
+
+        // Cabeçalho
+        System.out.println("----------------------------------------------------------------------");
+        System.out.println("Boas-vindas ao gerador de vetores pares e impares de um vetor qualquer");
+        System.out.println("----------------------------------------------------------------------");
+
         // Começando um vetor com valores pré-definidos apenas para teste
         int [] vetor_A = new int[]{5, 9, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
         int n_impares = 0;

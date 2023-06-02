@@ -8,6 +8,11 @@ public class Exercicio08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // Cabeçalho
+        System.out.println("--------------------------------------------------------------------------------------");
+        System.out.println("Boas-vindas ao Impressor dos números entre 100 e 150 que seus algarismos somados é par");
+        System.out.println("--------------------------------------------------------------------------------------");
+
         // Lista dos números inteiros do intervalo, considerando o 100 e o 150.
         List<Integer> lista_intervalo = new ArrayList<>();
         for (int i = 100; i <= 150; i++){
@@ -43,7 +48,7 @@ public class Exercicio08 {
             }
 
         }
-        System.out.println("A lista dos inteiros dentro do intervalo 100-150 cuja soma de todos os dígitos é um número par, é: ");
+        System.out.println("\nA lista dos inteiros dentro do intervalo 100-150 cuja soma de todos os dígitos é um número par, é:");
         System.out.println(lista_soma_par);
 
 

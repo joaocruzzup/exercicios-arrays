@@ -10,6 +10,11 @@ public class Exercicio03 {
         Scanner sc = new Scanner(System.in);
         List<Double> lista_numeros = new ArrayList<>();
 
+        // Cabeçalho
+        System.out.println("---------------------------------------------------");
+        System.out.println("Boas-vindas ao Exibidor em Ordem Decrescente");
+        System.out.println("---------------------------------------------------");
+
         System.out.print("Digite um número: ");
         lista_numeros.add(sc.nextDouble());
 
