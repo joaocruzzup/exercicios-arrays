@@ -17,7 +17,8 @@ public class Exercicio10 {
                 qtdImpares += 1;
             }
         }
-        System.out.printf("A soma dos números ímpares presentes no vetor é: %d", somaImpares);
+        double media = (double) somaImpares /qtdImpares;
+        System.out.printf("A soma dos números ímpares presentes no vetor é: %.2f", media);
 
 
     }
